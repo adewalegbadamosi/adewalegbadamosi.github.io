@@ -32,8 +32,16 @@ border-radius: 2vw;
 .black-text{
     color: black;
 }
+.display {
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+}
+.align-self{
+    align-self: center;
+}
 
-@media (max-width:48em){
+@media (max-width:768px){
     .description p{
         
         font-style: italic;
@@ -41,5 +49,8 @@ border-radius: 2vw;
     }
     .card-height-p{
         height: fit-content;
+    }
+    .display {       
+        justify-content: start;        
     }
 }
