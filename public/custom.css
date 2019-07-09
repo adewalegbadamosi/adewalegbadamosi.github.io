@@ -1,0 +1,45 @@
+
+a {
+    text-decoration: none !important
+}
+
+.card-border{
+border-radius: 2vw;
+}
+.card-height-p{
+    height: 12vw;
+}
+
+.description p::before , .description p::after  {
+    content: '_______________';
+    color: black;
+    display: inline; 
+    
+}
+.description p{
+    font-size: 2vw;
+    font-style: italic
+} 
+.arial {
+    font-family: Arial, Helvetica, sans-serif;
+}
+.italic{
+    font-style: italic
+}
+.black-bg{
+    background: black;
+}
+.black-text{
+    color: black;
+}
+
+@media (max-width:48em){
+    .description p{
+        
+        font-style: italic;
+        font-size: 12px
+    }
+    .card-height-p{
+        height: fit-content;
+    }
+}
