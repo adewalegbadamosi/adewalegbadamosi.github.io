@@ -1,4 +1,6 @@
-
+body{
+    background-image: linear-gradient(180deg, blue, red);
+}
 a {
     text-decoration: none !important
 }
@@ -11,8 +13,8 @@ border-radius: 2vw;
 }
 
 .description p::before , .description p::after  {
-    content: '_______________';
-    color: black;
+    content: '__________';
+    color: white;
     display: inline; 
     
 }
@@ -39,6 +41,13 @@ border-radius: 2vw;
 }
 .align-self{
     align-self: center;
+}
+
+.font-size{
+    font-size: 15px;
+}
+.gradient{
+    background-image: linear-gradient(180deg, blue, green);
 }
 
 @media (max-width:768px){
